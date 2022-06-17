@@ -32,6 +32,6 @@ public class PilotTest {
         assertEquals("Bob is flying the plane", pilot.fly());
     }
 
-    
+
 
 }
