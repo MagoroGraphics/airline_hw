@@ -53,4 +53,10 @@ public class Flight {
     public String getDepartureTime() {
         return departureTime;
     }
+
+    public int getRemainingSeats(){
+        PlaneType type = plane.getType();
+        return type.getCapacity() - passengerList.size();
+    }
 }
+

@@ -9,4 +9,8 @@ public class Plane {
     public PlaneType getType() {
         return type;
     }
+
+//    public int planeCapacity(){
+//        return PlaneType.AIRBUS_A3
+//    }
 }
