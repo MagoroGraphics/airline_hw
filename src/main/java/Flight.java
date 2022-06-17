@@ -58,5 +58,11 @@ public class Flight {
         PlaneType type = plane.getType();
         return type.getCapacity() - passengerList.size();
     }
+
+    public void bookPassenger(Passenger passenger){
+        if (getRemainingSeats() > 0) {
+             passengerList.add(passenger);
+        }
+    }
 }
 
