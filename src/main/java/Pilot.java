@@ -20,4 +20,8 @@ public class Pilot {
     public String getLicenseNum() {
         return licenseNum;
     }
+
+    public String fly() {
+        return getName() + " is flying the plane";
+    }
 }
